@@ -1,0 +1,79 @@
+body{
+  background-color: #03523C !important;
+}
+
+.container{
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav{
+  /* justify-content: center; */
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+
+.film-logo{
+  width: 170px;
+  height: 60px;
+  object-fit: cover;
+  border:  1px solid transparent;
+  padding-left: 10px;
+
+}
+.films-search{
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 8px 16px ;
+}
+
+.films-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 50px 0;
+}
+
+.film {
+  width: 250px;
+  height: 520px;
+  /* background-color:#01812F; */
+  border: 1px solid ;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.film-img {
+  width: 100%;
+  /* border-top: 12px; */
+}
+
+.film-info{
+  margin-top: 15px;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  margin: 0;
+}
